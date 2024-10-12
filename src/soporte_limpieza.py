@@ -126,7 +126,7 @@ def rellenar_codigos_nombres(dataframe, codigo, nombre, diccionario):
     dataframe.loc[dataframe[codigo].isna() & dataframe[nombre].notna(), codigo] = dataframe[nombre]
     # Asigna los valores de la columna 'nombre' a la columna 'codigo' donde 'codigo' es NaN y 'nombre' no es NaN
 
-    dataframe.drop(columns=[nombre], inplace=True)
+    dataframe = dataframe.drop(columns=[nombre])
     # Elimina la columna 'nombre' del DataFrame
 
     return dataframe
