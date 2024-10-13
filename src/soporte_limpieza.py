@@ -71,18 +71,19 @@ def nulos_ceros(dataframe, columna):
     return dataframe
 
 
-def rellenar_anos(dataframe):
+def rellenar_anos(dataframe, anos):
     """
     Rellena la columna 'ano_ejercicio' con los años proporcionados.
 
     Parámetros:
     dataframe (list of DataFrames): Lista de DataFrames que contienen la columna 'ano_ejercicio'.
+    anos (list): Lista de años que se usarán para rellenar la columna 'ano_ejercicio'.
 
     Retorna:
     list of DataFrames: La lista de DataFrames con la columna 'ano_ejercicio' rellenada.
     """
     indice = 0
-    años = [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021]
+    años = anos
     for df in dataframe:
         df["ano_ejercicio"] = años[indice]
         indice += 1
@@ -126,7 +127,7 @@ def rellenar_codigos_nombres(dataframe, codigo, nombre, diccionario):
     dataframe.loc[dataframe[codigo].isna() & dataframe[nombre].notna(), codigo] = dataframe[nombre]
     # Asigna los valores de la columna 'nombre' a la columna 'codigo' donde 'codigo' es NaN y 'nombre' no es NaN
 
-    dataframe = dataframe.drop(columns=[nombre])
+    dataframe.drop(columns=[nombre], inplace = True)
     # Elimina la columna 'nombre' del DataFrame
 
     return dataframe
