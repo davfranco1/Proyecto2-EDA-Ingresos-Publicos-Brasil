@@ -40,7 +40,7 @@ Los problemas concretos que nos han pedido resolver son:
 - **Visualización:** Generar gráficos que permitan identificar tendencias y patrones relevantes en los datos analizados.
 
 
-## Estructura del repositorio:
+## Estructura del repositorio
 
 ### Notebooks
 Las distintas fases del proyecto se han dividido en tres cuadernos de Jupyter (.ipynb), con uno adicional de soporte.
@@ -54,7 +54,7 @@ Las distintas fases del proyecto se han dividido en tres cuadernos de Jupyter (.
 4.	**Soporte Diccionarios:**: creación de diccionarios ubicados en "soporte_variables.py"
 
 
-### Src:
+### Src
 Archivos de soporte, manteniendo los notebooks más ordenados:
 
 - soporte_limpieza: archivo .py con funciones utilizadas en el tratamiento de los datos.
@@ -71,6 +71,14 @@ Archivos de imagen de soporte para el proyecto.
 
 ## Conclusiones
 Las principales conclusiones del EDA pueden consultarse en cada cuaderno, pero mencionamos algunas:
+
+1. El contenido de los dataframes corresponde a la recaudación del gobierno brasileño. En total, se han tratado 9 dataframes que contenían la misma información para 9 años. 
+
+2. Se ha normalizado el contenido de filas y columnas, consiguiendo que los datos se correspondan con el tipo de la columna.
+
+3. Para aportar legibilidad y manejabilidad, el número de columnas se ha reducido de 16 a 11, eliminando información duplicada, difícil de entender, innecesaria o en su mayoría faltante.
+
+4. Los valores nulos se han reducido en un 99%, sacrificando únicamente un 9% del total de filas, aportando información más relevante para el análisis.
 
 
 ## Próximos Pasos
