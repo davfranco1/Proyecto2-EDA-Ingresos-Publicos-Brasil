@@ -97,7 +97,7 @@ Las principales conclusiones del EDA pueden consultarse en cada cuaderno. Mencio
 
 7. En general, se plantean interrogantes sobre la gestión de los recursos, tanto las previsiones como los registros, que, al no contabilizarse de manera adecuada, llevarían a una gestión inadecuada.
 
-![imagen](imagenes/grafica.jpeg)
+![imagen](imagenes/grafica.png)
 
-## Sugerencias
+## Propuestas
 1. 
