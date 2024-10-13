@@ -69,8 +69,19 @@ Aquí pueden consultarse los datos sin tratar del proyecto. Los CSVs resultantes
 Archivos de imagen de soporte para el proyecto.
 
 
+## Lenguaje y requisitos
+El proyecto fué elaborado con Python 3.9 y la instalación de 5 librerías:
+
+- pandas
+- numpy
+- matplotlib.pyplot
+- seaborn
+- sys
+
+Debes clonar el repositorio completo e ir ejecutando los notebooks en el orden establecido, de modo que se vayan generando los archivos CSV necesarios.
+
 ## Conclusiones
-Las principales conclusiones del EDA pueden consultarse en cada cuaderno, pero mencionamos algunas:
+Las principales conclusiones del EDA pueden consultarse en cada cuaderno. Mencionamos en líneas generales algunas de ellas:
 
 1. El contenido de los dataframes corresponde a la recaudación del gobierno brasileño. En total, se han tratado 9 dataframes que contenían la misma información para 9 años. 
 
@@ -78,7 +89,15 @@ Las principales conclusiones del EDA pueden consultarse en cada cuaderno, pero m
 
 3. Para aportar legibilidad y manejabilidad, el número de columnas se ha reducido de 16 a 11, eliminando información duplicada, difícil de entender, innecesaria o en su mayoría faltante.
 
-4. Los valores nulos se han reducido en un 99%, sacrificando únicamente un 9% del total de filas, aportando información más relevante para el análisis.
+4. Los valores nulos a cero, sacrificando únicamente un 9% del total de filas, aportando información más relevante para el análisis.
 
+5. Salta a la vista que el gobierno no registra ni un 1% de los montos que ingresa. De la misma forma, hay una desviación entre lo que prevé ingresar y lo que realmente ingresa.
 
-## Próximos Pasos
+6. La tendencia de los ingresos es en general alcista, y se corresponde con un período de tiempo en que la economía brasileña creció constantemente.
+
+7. En general, se plantean interrogantes sobre la gestión de los recursos, tanto las previsiones como los registros, que, al no contabilizarse de manera adecuada, llevarían a una gestión inadecuada.
+
+![imagen](imagenes/grafica.jpeg)
+
+## Sugerencias
+1. 
