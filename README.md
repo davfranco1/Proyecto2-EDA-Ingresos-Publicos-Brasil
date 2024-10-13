@@ -43,23 +43,22 @@ Los problemas concretos que nos han pedido resolver son:
 ## Estructura del repositorio:
 
 ### Notebooks
-Las distintas fases del proyecto se han dividido en tres cuadernos de Jupyter (.ipynb).
+Las distintas fases del proyecto se han dividido en tres cuadernos de Jupyter (.ipynb), con uno adicional de soporte.
 
-1. Exploración: entender la estructura y relaciones de los datos para unificarlos en un sólo dataframe.
+1.	**Exploración:**: entender la estructura y relaciones de los datos para unificarlos en un sólo dataframe.
 
-2. Limpieza: ejecutar tareas de normalización de los datos, incluyendo nombres de columnas, nulos, duplicados y tipos de datos.
+2.	**Limpieza:** ejecutar tareas de normalización de los datos, incluyendo nombres de columnas, nulos, duplicados y tipos de datos.
 
-3. Análisis y Visualización: identificar relaciones, tendencias y usar herramientas de visualización para explicarlas.
+3.	**Análisis y Visualización:** identificar relaciones, tendencias y usar herramientas de visualización para explicarlas.
 
-4. Soporte_Diccionarios: creación de diccionarios ubicados en "soporte_variables.py"
+4.	**Soporte Diccionarios:**: creación de diccionarios ubicados en "soporte_variables.py"
 
 
 ### Src:
-Archivos de soporte:
+Archivos de soporte, manteniendo los notebooks más ordenados:
 
-1. soporte_limpieza: archivo .py con funciones utilizadas en el tratamiento de los datos.
-
-2. soporte_variables: archivo .py que almacena diccionarios usados para el tratamiento de los datos.
+- soporte_limpieza: archivo .py con funciones utilizadas en el tratamiento de los datos.
+- soporte_variables: archivo .py que almacena diccionarios usados para el tratamiento de los datos.
 
 
 ### Datos
