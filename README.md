@@ -42,17 +42,32 @@ Los problemas concretos que nos han pedido resolver son:
 
 ## Estructura del repositorio:
 
-- Notebooks: las distintas fases del proyecto se han dividido en tres cuadernos de Jupyter (.ipynb).
+### Notebooks
+Las distintas fases del proyecto se han dividido en tres cuadernos de Jupyter (.ipynb).
+
 1. Exploración: entender la estructura y relaciones de los datos para unificarlos en un sólo dataframe.
+
 2. Limpieza: ejecutar tareas de normalización de los datos, incluyendo nombres de columnas, nulos, duplicados y tipos de datos.
+
 3. Análisis y Visualización: identificar relaciones, tendencias y usar herramientas de visualización para explicarlas.
+
 4. Soporte_Diccionarios: creación de diccionarios ubicados en "soporte_variables.py"
 
-- Src: archivos de soporte:
+
+### Src:
+Archivos de soporte:
+
 1. soporte_limpieza: archivo .py con funciones utilizadas en el tratamiento de los datos.
+
 2. soporte_variables: archivo .py que almacena diccionarios usados para el tratamiento de los datos.
 
-- Datos: aquí pueden consultarse los datos sin tratar del proyecto. Los CSVs resultantes de la unión y limpieza no pueden ser consultados por la limitación de 100MB en el tamaño de archivo de GitHub.
+
+### Datos
+Aquí pueden consultarse los datos sin tratar del proyecto. Los CSVs resultantes de la unión y limpieza no pueden ser consultados por la limitación de 100MB en el tamaño de archivo de GitHub.
+
+
+### Imágenes
+Archivos de imagen de soporte para el proyecto.
 
 
 ## Conclusiones
