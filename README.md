@@ -89,7 +89,7 @@ Las principales conclusiones del EDA pueden consultarse en cada cuaderno. Mencio
 
 3. Para aportar legibilidad y manejabilidad, el número de columnas se ha reducido de 16 a 11, eliminando información duplicada, difícil de entender, innecesaria o en su mayoría faltante.
 
-4. Los valores nulos a cero, sacrificando únicamente un 9% del total de filas, aportando información más relevante para el análisis.
+4. Los valores nulos se han reducido a cero, sacrificando únicamente un 9% del total de filas, aportando información más relevante para el análisis.
 
 5. Salta a la vista que el gobierno no registra ni un 1% de los montos que ingresa. De la misma forma, hay una desviación entre lo que prevé ingresar y lo que realmente ingresa.
 
