@@ -101,9 +101,9 @@ Las principales conclusiones del EDA pueden consultarse en cada cuaderno. Mencio
 
 ## Propuestas
 
-1. Puesta en marcha de una auditoría comprensiva del Ministerio de Planificación, responsable por la preparación de las cuentas en Brasil, que permita identificar y corregir los métodos por los que se estén preparando los presupuestos y se estén registrando los ingresos. La falta de precisión en los datos lleva indiscutiblemente a una mala gestión de los recursos, y por ende de, la que es la novena economía del mundo.
+1. Puesta en marcha de una auditoría comprensiva de los Ministerios de Planificación y Hacienda, responsables por la preparación de las cuentas en Brasil, que permita identificar y corregir los métodos por los que se estén preparando los presupuestos y se estén registrando los ingresos. La falta de precisión en los datos lleva indiscutiblemente a una mala gestión de los recursos, y por ende de, la que es la novena economía del mundo.
 
-2. Habría que investigar los métodos y procedimientos del "Tribunal de Contas da União", que es el Tribunal de Cuentas de Brasil, y según se lee en su página web, conduce auditorías y su principal cometido es la "lucha incesante contra la corrupción, el desperdicio y el uso inadecuado de los recursos federales", por cuanto, no se entiene que desviaciones como las identificadas en este EDA hayan podido pasar desapercibidas para este Tribunal.
+2. Sería preciso investigar también los métodos y procedimientos del "Tribunal de Contas da União", que es el Tribunal de Cuentas de Brasil, y según se lee en su página web, conduce auditorías y su principal cometido es la "lucha incesante contra la corrupción, el desperdicio y el uso inadecuado de los recursos federales", por cuanto, no se entiene que desviaciones como las identificadas en este EDA hayan podido pasar desapercibidas para este Tribunal.
 
 3. Poner en marcha métodos y procedimientos revisados para la previsión, registro y recaudación de los ingresos del Estado, que sean fiscalizados por un período extendido de tiempo, de manera que puedan corregirse las desviaciones y malas prácticas que han llevado a las inconsistencias evidenciadas en este EDA.
 
